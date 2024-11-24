@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# Temporary files
+*.log
+*.lock
+*.cache
+*.tmp
+
+# Environment variables
+.env
+.env.*.local
+
+# Testing
+coverage/
+
+# Local config files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# React specific
+.eslintcache
+*.test.js
+*.test.ts
+*.test.jsx
+*.test.tsx
+
+# Yarn Integrity
+.yarn-integrity
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# TypeScript
+*.tsbuildinfo
